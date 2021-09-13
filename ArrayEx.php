@@ -34,7 +34,7 @@ $input = array("red", "green", "blue", "yellow");
    //$d1 = DateTime::createFromFormat("m-d-Y", "01-05-2020");
    echo $d1;
 
-   echo "<br>"."ABC";
+   echo "<br>". "xin chao";
    $format = 'Y-m-d';
 $date = DateTime::createFromFormat($format, '2020-01-15');
 echo "Format: $format; " . $date->format("Y/m/d") . "\n";
