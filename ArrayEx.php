@@ -42,5 +42,5 @@ echo $date->format("Y/m/d");
 
 echo "<br>";
 echo "<br>";
-$date2 = date("Y/m/d",mktime(0,0,0, date("m")+1, date("d"), date("Y")));
+$date2 = date("Y/m/d",mktime(1,2,3, date("m")+1, date("d"), date("Y")));
 echo $date2;
