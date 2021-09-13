@@ -41,6 +41,6 @@ echo "Format: $format; " . $date->format("Y/m/d") . "\n";
 echo $date->format("Y/m/d");
 
 echo "<br>";
-echo "<br>"."ABC";
+echo "<br>"."ABCEFGHffffff";
 $date2 = date("Y/m/d",mktime(7,8,9, date("m")+1, date("d"), date("Y")));
 echo $date2;
